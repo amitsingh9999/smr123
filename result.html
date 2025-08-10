@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result - Medicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <section class="result">
+        <h2>Your Blood Pressure stage is: {{ prediction_text }}</h2>
+
+        <div class="footer-info">
+            <h3>Medicio</h3>
+            <p>The Smart Bridge<br>Hyderabad, Telangana, India</p>
+            <p>Phone: +1 5589 55488 55</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </section>
+</body>
+</html>

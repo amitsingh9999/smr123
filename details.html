@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information - Medicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <section class="info">
+        <h2>INFORMATION.</h2>
+        <p>Blood pressure (BP) measures the force...</p>
+
+        <h3>Stages</h3>
+        <ul>
+            <li>Stage 1: Normal: Systolic < 120 mm Hg, Diastolic < 80 mm Hg.</li>
+            <li>Stage 2: Elevated: Systolic 120-129 mm Hg, Diastolic < 80 mm Hg.</li>
+            <li>Stage 3: Hypertension Stage 1: Systolic 130-139 mm Hg...</li>
+            <li>Stage 4: Hypertension Stage 2: Systolic ≥ 140 mm Hg...</li>
+        </ul>
+
+        <h3>Risk Factors:</h3>
+        <p>Family history increases risk, high salt intake, low potassium diets...</p>
+    </section>
+</body>
+</html>
